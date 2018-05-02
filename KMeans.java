@@ -189,9 +189,9 @@ public class KMeans{
 		int width = img1.getWidth();
 
 		BufferedImage img2 = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
-                //file object
+
                 f = null;
-                //create random image pixel by pixel
+
                 for(int x = 0; x < width; x++){
                         for(int y = 0; y < height; y++){
                                 img2.setRGB(x, y, KM.retCol(img1.getRGB(x, y)));
@@ -203,5 +203,5 @@ public class KMeans{
                 } catch(IOException e){
                         System.out.println("Error: " + e);
                 }
-	}//main() ends here
-}//class ends here
+	}
+}

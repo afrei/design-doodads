@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 
-public class Tiles{
+public class Mizrach{
 	public static void main(String args[])throws IOException{
 		int width = 900;
 		int height = 600;
@@ -47,7 +47,7 @@ public class Tiles{
 		}
 
 		try{
-			f = new File("tileAlias.png");
+			f = new File("mizrach.png");
 			ImageIO.write(img, "png", f);
 		}catch(IOException e){
 			System.out.println("Error: " + e);

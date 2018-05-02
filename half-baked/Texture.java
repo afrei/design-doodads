@@ -17,7 +17,7 @@ public class Texture{
 		}
 
 		try{
-			f = new File("text.png");
+			f = new File("texture.png");
 			ImageIO.write(img, "png", f);
 		}catch(IOException e){
 			System.out.println("Error: " + e);

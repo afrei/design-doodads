@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 
-public class SmoothOther{
+public class Abstract{
 	public static void main(String args[])throws IOException{
 		//image dimension
 		int width = 9000;
@@ -22,7 +22,7 @@ public class SmoothOther{
 		}
 		//write image
 		try{
-			f = new File("smoothOther2.png");
+			f = new File("abstract.png");
 			ImageIO.write(img, "png", f);
 		}catch(IOException e){
 			System.out.println("Error: " + e);

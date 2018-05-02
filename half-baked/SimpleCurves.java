@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 
-public class SmoothLines{
+public class SimpleCurves{
 	public static void main(String args[])throws IOException{
 		//image dimension
 		int width = 1618;
@@ -22,7 +22,7 @@ public class SmoothLines{
 		}
 		//write image
 		try{
-			f = new File("smoothLines.png");
+			f = new File("simpleCurves.png");
 			ImageIO.write(img, "png", f);
 		}catch(IOException e){
 			System.out.println("Error: " + e);
